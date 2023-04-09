@@ -1,0 +1,230 @@
+/*Menu*/
+.icon-close {
+    display: flex;
+    justify-content:left;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    color:white;
+    
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: -1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+/*Menu*/
+
+/*Barra de progresso*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.bar {
+    width: 60rem;
+    height: 0.6rem;
+    border-radius: 1rem;
+    background-color: #233236;
+    margin-right: 1rem;
+    margin-left: 1rem
+}
+
+.bar div {
+    height: 100%;
+    border-radius: 1rem;
+    background-color: aqua;
+    transition: all 1.5s;
+}
+
+.QT {
+    color: aqua;
+    margin-right: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+/*Barra de progresso*/
+
+/*Conteúdo principal*/
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card {
+    display: flex;
+    width: 64rem;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 2rem;
+    margin-top: -4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color:#2B6570;
+}
+
+.response{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.text-main {
+    text-align: justify;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.text {
+    margin-right: 2rem;
+    margin-top: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.desk {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+.reverse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+a {
+    width: 8rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 1.2rem;
+}
+
+a:hover {
+    transition: all 0.5s;
+    color: aqua;
+    box-shadow: 0rem 0rem 4rem aqua, 0rem 0rem 1rem insert;
+    text-shadow: 0rem 0rem 0.5rem aquamarine, 0rem 0rem 0.5rem aqua;
+}
+/*Conteúdo principal*/
+
+/*Rodapé*/
+footer.neon {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    
+    
+}
+
+.question {
+    margin-left: 0.5rem;
+    margin-right: 8rem;
+    font-size: 0.6rem;    
+}
+
+.btn-neon1 {
+    font-family:0;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    background: none;
+    transition: box-shadow 0.2s;
+    color:#00FF40;
+    border: 0.1rem solid #00FF40;
+    
+    
+}
+
+.btn-neon1:hover {
+    border: 0.2rem solid #00FF40;
+    color:#00FF40;
+    box-shadow: 0rem 0rem 4rem #00FF40, 0rem 0rem 1rem insert;
+    text-shadow: 0rem 0rem 0.5rem #00FF40cc, 0rem 0rem 0.5rem #00FF40;
+
+}
+
+.btn-neon2 {
+    font-family:0;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    background: none;
+    transition: box-shadow 0.2s;
+    color:#ffd200;
+    border: 0.1rem solid #ffd200;
+    
+    
+}
+
+.btn-neon2:hover {
+    border: 0.2rem solid #ffd200;
+    color:#ffd200;
+    box-shadow: 0rem 0rem 4rem #ffd200, 0rem 0rem 1rem insert;
+    text-shadow: 0rem 0rem 0.5rem #ffd200cc, 0rem 0rem 0.5rem #ffd200;
+
+}
+
+.btn-neon3 {
+    font-family: 0;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    padding: 1rem 3.7rem;
+    border-radius: 2rem;
+    background: none;
+    transition: box-shadow 0.2s;
+    color:#ff0000;
+    border: 0.1rem solid #ff0000;
+    
+    
+}
+
+.btn-neon3:hover {
+    border: 0.2rem solid #ff0000;
+    color:#ff0000;
+    box-shadow: 0rem 0rem 4rem #ff0000, 0rem 0rem 1rem insert;
+    text-shadow: 0rem 0rem 0.5rem #ff0000cc, 0rem 0rem 0.5rem #ff0000;
+
+}
+/*Rodapé*/
+
+
+
+
