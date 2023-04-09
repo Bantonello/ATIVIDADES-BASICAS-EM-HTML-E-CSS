@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box; 
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+
+}
+
+ul,ol,li {
+    list-style: none;
+}
+
+@media screen and (max-width: 910px){
+
+    .container {
+        width: 100%; 
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;     
+
+    }
+
+    .icon-close {
+        font-size: 0.8rem;
+        
+    }
+
+    .title {
+        font-size: 1.2rem;
+        
+    }
+
+    .bar {
+        width: 68%;
+    }
+
+    .QT {
+        font-size: 0.8rem;    
+    }
+    .card {
+        width: 80%;
+        max-height: 50%;
+        margin-right: 0.5rem;
+        margin-left: 0;
+        font-size: 0.5rem;
+    }
+    
+    .text {
+        font-size: 0.6rem;
+    }
+
+    .logo {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        margin-top: 1rem;
+    }
+
+    .desk{
+        font-size: 1.2rem;
+    }
+
+    a {
+        font-size: 1.1rem;
+    }
+
+    img{
+        width: 1.2rem;
+        height: 1.2rem;
+    } 
+
+    footer.neon {
+        width: 100%;
+        height: 6rem;
+        flex-direction: column;
+        align-items:center;
+        margin-left: 1rem;   
+    }
+
+    .question {
+        margin-top: 1rem;
+    }
+
+    .btn {
+        display: flex;
+        align-content: flex-end;
+        margin-top: 1rem;
+    }
+
+    .btn-neon1 {
+        font-size: 1.1rem;
+        padding: 1rem 2.5rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .btn-neon2 {
+        font-size: 1.1rem;
+        padding: 1rem 2.5rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .btn-neon3 {
+        font-size: 1.1rem;
+        padding: 1rem 2.8rem;
+        margin-bottom: 0.1rem;
+    }
+}
+
+
